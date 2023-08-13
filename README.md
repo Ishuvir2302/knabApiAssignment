@@ -28,9 +28,9 @@ The folder structure of your API Testing Framework consists of the following:
 
 2. trello_schema: This is the json-schema which is used to validate the json response with matching with this schema
 
-* src/test/java - Contains package testEndPoints inside it we have written testcases for each endpoint(trello).
+* src/test/java - Contains package testEndPoints inside it we have written testcases for each endpoint(trello).Used BDD approach using trelloSteps and runner package
 * AdequateData- Testdata for trello and endpoint is mentioned in trello.txt file and can utilised in trelloendpoint
-
+*feature - feature file containing scenario's
 Overall, the structure follows a modular approach with separate packages for endpoints, payload, utilities, and routes. This makes it easy to maintain and extend the framework. The use of POJO classes helps to achieve objective, while Extent reporting provides detailed reports for better analysis.
 
 **Language**

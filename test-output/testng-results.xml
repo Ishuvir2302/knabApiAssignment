@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-13T13:19:37 CEST" name="Suite" finished-at="2023-08-13T13:19:46 CEST" duration-ms="9220">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6cce16f4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-08-13T13:19:37 CEST" name="Trello Api test" finished-at="2023-08-13T13:19:46 CEST" duration-ms="9220">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Runner.TestRunner@6cce16f4]" started-at="2023-08-13T13:19:37 CEST" name="beforeSuite" finished-at="2023-08-13T13:19:37 CEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner@6cce16f4]" started-at="2023-08-13T13:19:37 CEST" name="setUpClass" finished-at="2023-08-13T13:19:38 CEST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6cce16f4]" started-at="2023-08-13T13:19:38 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-13T13:19:46 CEST" duration-ms="8754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete the created trello board"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Trello Board API Automation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@6cce16f4]" started-at="2023-08-13T13:19:46 CEST" name="tearDownClass" finished-at="2023-08-13T13:19:46 CEST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.TestRunner@6cce16f4]" started-at="2023-08-13T13:19:47 CEST" name="afterSuite" finished-at="2023-08-13T13:19:47 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Trello Api test -->
+  </suite> <!-- Suite -->
+</testng-results>

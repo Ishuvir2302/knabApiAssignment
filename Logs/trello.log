@@ -1,0 +1,56 @@
+12:54:28[main] INFO  trello - *****BoardNameCreated*****Automation1
+12:54:30[main] INFO  trello - *****POSTRequestSent*****
+12:54:30[main] INFO  trello - *****testGetBoard*****
+12:54:35[main] INFO  trello - *****`CreatedID*****64d8b66580a63aae19af20fa
+12:54:35[main] INFO  trello - *****BoardNameCreated*****Automation1
+12:54:35[main] INFO  trello - *****`Board ID going to be deleted*****null
+12:54:35[main] INFO  trello - *****DeleteRequestSent*****
+13:05:14[main] INFO  trello - *****BoardNameCreated*****Automation1
+13:05:16[main] INFO  trello - *****POSTRequestSent*****
+13:05:16[main] INFO  trello - *****testGetBoard*****
+13:05:21[main] INFO  trello - *****`CreatedID*****64d8b8eb2af50c77ae644278
+13:05:21[main] INFO  trello - *****`Name Matched*****Automation1
+13:05:21[main] INFO  trello - *****BoardNameCreated*****Automation1
+13:19:38[main] INFO  trello - *****BoardNameCreated*****Automation1
+13:19:40[main] INFO  trello - *****POSTRequestSent*****
+13:19:40[main] INFO  trello - *****`CreatedID*****64d8bc4bca36821e9fd4c80f
+13:19:40[main] INFO  trello - *****`Board ID going to be deleted*****64d8bc4bca36821e9fd4c80f
+13:19:41[main] INFO  trello - *****DeleteRequestSent*****
+13:19:41[main] INFO  trello - *****testGetBoard*****
+13:19:46[main] INFO  trello - *****DeleteRequestSent*****
+13:22:07[main] INFO  trello - *****testGetBoard*****
+13:22:12[main] INFO  trello - StatusLineCodeHTTP/1.1 200 OK
+13:22:12[main] INFO  trello - *****StatuLineValidated*****
+13:22:12[main] INFO  trello - *****TrelloBoardHeaderValidated*****application/json; charset=utf-8
+13:22:12[main] INFO  trello - *****TrelloBoardIdValidated*****64d7a4c5f34844145d9f5dab
+13:22:12[main] INFO  trello - *****SchemaValidated*****
+13:22:12[main] INFO  trello - *****BoardNameCreated*****Automation1
+13:22:13[main] INFO  trello - *****POSTRequestSent*****
+13:22:13[main] INFO  trello - *****testGetBoard*****
+13:22:18[main] INFO  trello - *****`CreatedID*****64d8bce52a7b593e3f668465
+13:22:18[main] INFO  trello - *****`Name Matched*****Automation1
+13:22:18[main] INFO  trello - *****BoardNameCreated*****Automation1
+13:22:19[main] INFO  trello - *****POSTRequestSent*****
+13:22:19[main] INFO  trello - *****`CreatedID*****64d8bceabf7d15b36088292e
+13:22:19[main] INFO  trello - *****`Board ID going to be deleted*****64d8bceabf7d15b36088292e
+13:22:20[main] INFO  trello - *****DeleteRequestSent*****
+13:22:20[main] INFO  trello - *****testGetBoard*****
+13:22:25[main] INFO  trello - *****DeleteRequestSent*****
+18:07:28[main] INFO  trello - *****testGetBoard*****
+18:07:33[main] INFO  trello - StatusLineCodeHTTP/1.1 200 OK
+18:07:34[main] INFO  trello - *****StatuLineValidated*****
+18:07:34[main] INFO  trello - *****TrelloBoardHeaderValidated*****application/json; charset=utf-8
+18:07:34[main] INFO  trello - *****TrelloBoardIdValidated*****64d7a4c5f34844145d9f5dab
+18:07:34[main] INFO  trello - *****SchemaValidated*****
+18:07:34[main] INFO  trello - *****BoardNameCreated*****Automation1
+18:07:35[main] INFO  trello - *****POSTRequestSent*****
+18:07:35[main] INFO  trello - *****testGetBoard*****
+18:07:40[main] INFO  trello - *****`CreatedID*****64d8ffc69efbbe248085cac5
+18:07:40[main] INFO  trello - *****`Name Matched*****Automation1
+18:07:40[main] INFO  trello - *****BoardNameCreated*****Automation1
+18:07:41[main] INFO  trello - *****POSTRequestSent*****
+18:07:41[main] INFO  trello - *****`CreatedID*****64d8ffcc7f27bce6cc563910
+18:07:41[main] INFO  trello - *****`Board ID going to be deleted*****64d8ffcc7f27bce6cc563910
+18:07:42[main] INFO  trello - *****DeleteRequestSent*****
+18:07:42[main] INFO  trello - *****testGetBoard*****
+18:07:47[main] INFO  trello - *****DeleteRequestSent*****

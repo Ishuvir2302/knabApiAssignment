@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.875" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/admin/eclipse-workspace/com.trello.APIAutomation/target/test-classes:/Users/admin/eclipse-workspace/com.trello.APIAutomation/target/classes:/Users/admin/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/admin/.m2/repository/org/json/json/20230227/json-20230227.jar:/Users/admin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/admin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/admin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/admin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/admin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/admin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/admin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/admin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/admin/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/admin/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/admin/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/admin/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/admin/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-testng/6.10.4/cucumber-testng-6.10.4.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/admin/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/admin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/admin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/admin/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/admin/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/admin/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/admin/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/admin/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/admin/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/admin/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/admin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/admin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/admin/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/admin/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/admin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/admin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/admin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/admin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/admin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/admin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/admin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/admin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/admin/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/admin/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/admin/.m2/repository/org/awaitility/awaitility/3.0.0/awaitility-3.0.0.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/admin/.m2/repository/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/admin/.m2/repository/javax/xml/soap/javax.xml.soap-api/1.4.0/javax.xml.soap-api-1.4.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/admin/eclipse-workspace/com.trello.APIAutomation/target/surefire/surefirebooter-20230813180725814_3.jar /Users/admin/eclipse-workspace/com.trello.APIAutomation/target/surefire 2023-08-13T18-07-25_728-jvmRun1 surefire-20230813180725814_1tmp surefire_0-20230813180725814_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/admin/eclipse-workspace/com.trello.APIAutomation/target/test-classes:/Users/admin/eclipse-workspace/com.trello.APIAutomation/target/classes:/Users/admin/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/admin/.m2/repository/org/json/json/20230227/json-20230227.jar:/Users/admin/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/admin/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/admin/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/admin/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/admin/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/admin/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/admin/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/admin/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/admin/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/admin/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/admin/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/admin/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/admin/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/admin/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/admin/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/admin/.m2/repository/io/cucumber/cucumber-testng/6.10.4/cucumber-testng-6.10.4.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/admin/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/admin/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/admin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/admin/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/admin/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/admin/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/admin/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/admin/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/admin/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/admin/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/admin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/admin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/admin/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/admin/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/admin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/admin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/admin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/admin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/admin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/admin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/admin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/admin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/admin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/admin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/admin/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/admin/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/admin/.m2/repository/org/awaitility/awaitility/3.0.0/awaitility-3.0.0.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/admin/.m2/repository/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/admin/.m2/repository/javax/xml/soap/javax.xml.soap-api/1.4.0/javax.xml.soap-api-1.4.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/admin/eclipse-workspace/com.trello.APIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/admin/eclipse-workspace/com.trello.APIAutomation/target/surefire/surefirebooter-20230813180725814_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/admin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/ys/dpr6fnkx6jz2dbmj2jqlcdwh0000gn/T/"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="user.dir" value="/Users/admin/eclipse-workspace/com.trello.APIAutomation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Retrieve board details using a valid request&quot;, &quot;Optional[Trello Board API Automation]&quot;](1)" classname="Runner.TestRunner" time="7.547">
+    <system-out><![CDATA[================ BEFORE SUITE ================
+
+@order1
+Scenario: Retrieve board details using a valid request                                       &amp#27;[90m# features/trelloApi.feature:5&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mGET request is made to the Trello API&amp#27;[0m                                                 &amp#27;[90m# stepDefination.trelloAPISteps.get_request_is_made_to_the_trello_api()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                  &amp#27;[90m# stepDefination.trelloAPISteps.verifyStatusCode(int)&amp#27;[0m
+HTTP/1.1 200 OK
+Date: Sun, 13 Aug 2023 16:07:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 3411
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: DENY
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Surrogate-Control: no-store
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00
+X-Trello-Version: 1.227590.0
+X-Trello-Environment: Production
+Set-Cookie: dsc=89d691c1ac59d7be347c8dee80ae6137eee03d5f14fbcf3390cebf58c544a309; Path=/; Expires=Sun, 27 Aug 2023 16:07:28 GMT; Secure; SameSite=None
+Set-Cookie: preAuthProps=s%3A64d6006e64d1b1ce7f1e8396%3AisEnterpriseAdmin%3Dfalse.svyiplW08pusE2Drj5STsHzkz%2Ft7QYW%2FrJrhgXL0OnQ; Path=/; HttpOnly
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-Rate-Limit-Api-Token-Interval-Ms: 10000
+X-Rate-Limit-Api-Token-Max: 100
+X-Rate-Limit-Api-Token-Remaining: 99
+X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+X-Rate-Limit-Db-Query-Time-Max: 7200000
+X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+X-Rate-Limit-Api-Key-Interval-Ms: 10000
+X-Rate-Limit-Api-Key-Max: 300
+X-Rate-Limit-Api-Key-Remaining: 299
+X-Rate-Limit-Member-Interval-Ms: 10000
+X-Rate-Limit-Member-Max: 375
+X-Rate-Limit-Member-Remaining: 374
+X-Server-Time: 1691942848904
+Server: AtlassianEdge
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: ae0e0d3a85e6150b
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Strict-Transport-Security: max-age=63072000; preload
+
+{
+    "id": "64d7a4c5f34844145d9f5dab",
+    "name": "APIBoard",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "64d600b0dcaec87865dff9b3",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/22riDrfq/apiboard",
+    "shortUrl": "https://trello.com/b/22riDrfq",
+    "prefs": {
+        "permissionLevel": "org",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "hiddenPluginBoardButtons": [
+            
+        ],
+        "switcherViews": [
+            {
+                "viewType": "Board",
+                "enabled": true
+            },
+            {
+                "viewType": "Table",
+                "enabled": true
+            },
+            {
+                "viewType": "Calendar",
+                "enabled": false
+            },
+            {
+                "viewType": "Dashboard",
+                "enabled": false
+            },
+            {
+                "viewType": "Timeline",
+                "enabled": false
+            },
+            {
+                "viewType": "Map",
+                "enabled": false
+            }
+        ],
+        "background": "64d7984704b6a2e5db74f14a",
+        "backgroundColor": null,
+        "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/6dd3f85ed077e0e95a464ef6de2f7c5b/photo-1667850132998-013f89c6aec4",
+        "backgroundImageScaled": [
+            {
+                "width": 140,
+                "height": 93,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 256,
+                "height": 171,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 480,
+                "height": 320,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 960,
+                "height": 640,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 1024,
+                "height": 683,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 1280,
+                "height": 854,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 1920,
+                "height": 1280,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 2048,
+                "height": 1366,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 2400,
+                "height": 1600,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/edb6948e22cd226254c2846b2174b845/photo-1667850132998-013f89c6aec4.jpg"
+            },
+            {
+                "width": 2560,
+                "height": 1707,
+                "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/6dd3f85ed077e0e95a464ef6de2f7c5b/photo-1667850132998-013f89c6aec4"
+            }
+        ],
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "backgroundBottomColor": "#56535a",
+        "backgroundTopColor": "#cdced8",
+        "canBePublic": true,
+        "canBeEnterprise": true,
+        "canBeOrg": true,
+        "canBePrivate": true,
+        "canInvite": true
+    },
+    "labelNames": {
+        "green": "",
+        "yellow": "",
+        "orange": "",
+        "red": "",
+        "purple": "",
+        "blue": "",
+        "sky": "",
+        "lime": "",
+        "pink": "",
+        "black": "",
+        "green_dark": "",
+        "yellow_dark": "",
+        "orange_dark": "",
+        "red_dark": "",
+        "purple_dark": "",
+        "blue_dark": "",
+        "sky_dark": "",
+        "lime_dark": "",
+        "pink_dark": "",
+        "black_dark": "",
+        "green_light": "",
+        "yellow_light": "",
+        "orange_light": "",
+        "red_light": "",
+        "purple_light": "",
+        "blue_light": "",
+        "sky_light": "",
+        "lime_light": "",
+        "pink_light": "",
+        "black_light": ""
+    }
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify status line code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"HTTP/1.1 200 OK"&amp#27;[0m                                    &amp#27;[90m# stepDefination.trelloAPISteps.verifyStatusLineCode(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify response should have &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m header as &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json; charset=utf-8"&amp#27;[0m &amp#27;[90m# stepDefination.trelloAPISteps.verifyResponseHeader(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify response body should show correct ID&amp#27;[0m                                            &amp#27;[90m# stepDefination.trelloAPISteps.verifyResponseBoardID()&amp#27;[0m
+Response time685
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify response time is less than &amp#27;[0m&amp#27;[32m&amp#27;[1m900&amp#27;[0m&amp#27;[32m ms&amp#27;[0m                                               &amp#27;[90m# stepDefination.trelloAPISteps.verifyResponseTime(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the response schema&amp#27;[0m                                                             &amp#27;[90m# stepDefination.trelloAPISteps.verifyJsonSchema()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create a Trello Board&quot;, &quot;Optional[Trello Board API Automation]&quot;](2)" classname="Runner.TestRunner" time="6.033">
+    <system-out><![CDATA[
+@order2
+Scenario: Create a Trello Board                       &amp#27;[90m# features/trelloApi.feature:15&amp#27;[0m
+boardName     Automation1
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to Board with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Automation1"&amp#27;[0m&amp#27;[32m name&amp#27;[0m       &amp#27;[90m# stepDefination.trelloAPISteps.i_want_to_create_board_with_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to Trello API&amp#27;[0m            &amp#27;[90m# stepDefination.trelloAPISteps.createBoard()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# stepDefination.trelloAPISteps.verifyStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify response body contains the board id&amp#27;[0m      &amp#27;[90m# stepDefination.trelloAPISteps.verify_response_body_contains_the_board_id()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify board is created with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Automation1"&amp#27;[0m&amp#27;[32m name&amp#27;[0m &amp#27;[90m# stepDefination.trelloAPISteps.verify_board_is_created_with_name(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete the created trello board&quot;, &quot;Optional[Trello Board API Automation]&quot;](3)" classname="Runner.TestRunner" time="6.723">
+    <system-out><![CDATA[
+@order3
+Scenario: Delete the created trello board        &amp#27;[90m# features/trelloApi.feature:23&amp#27;[0m
+boardName     Automation1
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to Board with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Automation1"&amp#27;[0m&amp#27;[32m name&amp#27;[0m  &amp#27;[90m# stepDefination.trelloAPISteps.i_want_to_create_board_with_name(java.lang.String)&amp#27;[0m
+Response body https://api.trello.com/1/boards/64d8ffcc7f27bce6cc563910
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a DELETE request to the Trello API&amp#27;[0m &amp#27;[90m# stepDefination.trelloAPISteps.sendDeleteRequest()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m      &amp#27;[90m# stepDefination.trelloAPISteps.verifyStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the delete response body&amp#27;[0m            &amp#27;[90m# stepDefination.trelloAPISteps.verifyDeletedBody()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

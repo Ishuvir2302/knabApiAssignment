@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "desc": { "type": "string" },
+    "descData": { "type": "null" },
+    "closed": { "type": "boolean" },
+    "idOrganization": { "type": "string" },
+    "idEnterprise": { "type": "null" },
+    "pinned": { "type": "boolean" },
+    "url": { "type": "string" },
+    "shortUrl": { "type": "string" },
+    "prefs": {
+      "type": "object",
+      "properties": {
+        "permissionLevel": { "type": "string" },
+        "hideVotes": { "type": "boolean" },
+        "voting": { "type": "string" }
+      }
+    },
+    "labelNames": {
+      "type": "object"
+    }
+  },
+  "required": ["id", "name", "closed", "idOrganization", "url", "shortUrl", "prefs", "labelNames"]
+}
+
